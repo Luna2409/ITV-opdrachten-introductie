@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_ObjectLifetime", "12_ObjectLifetime\12_ObjectLifetime.csproj", "{AB619E19-C4DB-455E-9961-6C0FE1BF6508}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB619E19-C4DB-455E-9961-6C0FE1BF6508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB619E19-C4DB-455E-9961-6C0FE1BF6508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB619E19-C4DB-455E-9961-6C0FE1BF6508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB619E19-C4DB-455E-9961-6C0FE1BF6508}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

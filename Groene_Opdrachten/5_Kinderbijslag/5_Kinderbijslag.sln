@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Kinderbijslag", "5_Kinderbijslag\5_Kinderbijslag.csproj", "{15FC7B36-D172-4C2C-A71D-1F7BF4D0062C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15FC7B36-D172-4C2C-A71D-1F7BF4D0062C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FC7B36-D172-4C2C-A71D-1F7BF4D0062C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FC7B36-D172-4C2C-A71D-1F7BF4D0062C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FC7B36-D172-4C2C-A71D-1F7BF4D0062C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

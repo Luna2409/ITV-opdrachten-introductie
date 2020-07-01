@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highly_divisible_triangular_number", "Highly_divisible_triangular_number\Highly_divisible_triangular_number.csproj", "{84E22737-9939-4D33-9326-60D896C03891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84E22737-9939-4D33-9326-60D896C03891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E22737-9939-4D33-9326-60D896C03891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E22737-9939-4D33-9326-60D896C03891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E22737-9939-4D33-9326-60D896C03891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B7E52C5-4811-42CD-A1FD-4DAD5104C29C}
+	EndGlobalSection
+EndGlobal
