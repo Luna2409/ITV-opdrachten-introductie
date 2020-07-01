@@ -1,0 +1,400 @@
+﻿<Window x:Class="_2_VlaggenVanDeWereld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2_VlaggenVanDeWereld"
+        xmlns:cf="clr-namespace:CountryFlag;assembly=CountryFlag"
+        mc:Ignorable="d"
+        Title="Flags of the world" Height="700" Width="1000" Background="#FF0E0808" Foreground="#FF0F0F0F" WindowStartupLocation="CenterScreen">
+                     <!--Default Height="700"--><!--Width="1000"-->
+                             <!--Height="2700"--><!--Width="950"-->
+    
+    <Grid Background="#FFD6C8C8" >
+        <StackPanel Height="65" VerticalAlignment="Top" Background="#FF856060">
+            
+            <TextBlock HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Foreground="White">Click on the flag to see the name of the country</TextBlock>
+            
+            <TextBox x:Name="naamFlag" Margin="5" Padding="2" Height="23" Width="300" VerticalAlignment="Top" HorizontalAlignment="Center" TextAlignment="Center" IsReadOnly="True"/>
+
+        </StackPanel>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0 65 0 0" Foreground="Black">
+            <WrapPanel HorizontalAlignment="Center">
+            
+                <!--#region Row 1-->
+                <!-- Row 1 -->
+                <cf:CountryFlag x:Name="United_Arab_Emirates" Code="AE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Afghanistan" Code="AF" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Antigua_and_Barbuda" Code="AG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Anguilla" Code="AI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Albania" Code="AL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Armenia" Code="AM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Angola" Code="AO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Antartica" Code="AQ" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 2-->
+                <!-- Row 2 -->
+                <cf:CountryFlag x:Name="Argentina" Code="AR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="American_Samoa" Code="AS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Austria" Code="AT" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Australia" Code="AU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Aruba" Code="AW" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Åland_Islands" Code="AX" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Azerbaijan" Code="AZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bosnia_and_Herzegovina" Code="BA" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 3-->
+                <!-- Row 3-->
+                <cf:CountryFlag x:Name="Barbados" Code="BB" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bangladesh" Code="BD" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Belgium" Code="BE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Burkina_Faso" Code="BF" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bulgaria" Code="BG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bahrain" Code="BH" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Burundi" Code="BI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Benin" Code="BJ" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 4-->
+                <!-- Row 4 -->
+                <cf:CountryFlag x:Name="St_Barths" Code="BL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bermuda" Code="BM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Brunei" Code="BN" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bolivia" Code="BO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Caribbean_Netherlands" Code="BQ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Brazil" Code="BR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bahamas" Code="BS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bhutan" Code="BT" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 5-->
+                <!-- Row 5 -->
+                <cf:CountryFlag x:Name="Bouvet_Island" Code="BV" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Botswana" Code="BW" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Belarus" Code="BY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Belize" Code="BZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Canada" Code="CA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Cocos_Keeling_Islands" Code="CC" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="DR_Congo" Code="CD" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Central_African_Republic" Code="CF" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 6-->
+                <!-- Row 6 -->
+                <cf:CountryFlag x:Name="Congo" Code="CG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Switzerland" Code="CH" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Ivory_Coast" Code="CI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Cook_Islands" Code="CK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Chile" Code="CL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Cameroon" Code="CM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="China" Code="CN" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Colombia" Code="CO" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 7-->
+                <!-- Row 7 -->
+                <cf:CountryFlag x:Name="Costa_Rica" Code="CR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Cuba" Code="CU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Cape_Verde" Code="CV" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Curaçao" Code="CW" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Christmas_Island" Code="CX" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Cyprus" Code="CY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Czech_Republic" Code="CZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Germany" Code="DE" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 8-->
+                <!-- Row 8 -->
+                <cf:CountryFlag x:Name="Djibouti" Code="DJ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Denmark" Code="DK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Dominica" Code="DM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Dominican_Republic" Code="DO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Algeria" Code="DZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Ecuador" Code="EC" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Estonia" Code="EE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Egypt" Code="EG" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 9-->
+                <!-- Row 9 -->
+                <cf:CountryFlag x:Name="Western_Sahara" Code="EH" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Eritrea" Code="ER" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Spain" Code="ES" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Ethiopia" Code="ET" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Finland" Code="FI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Fiji" Code="FJ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Falkland_Islands" Code="FK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="FD_Micronesia" Code="FM" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 10-->
+                <!-- Row 10 -->
+                <cf:CountryFlag x:Name="Faroe_Islands" Code="FO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="France" Code="FR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Gabon" Code="GA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="United_Kingdom" Code="GB" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Grenada" Code="GD" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Georgia" Code="GE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="French_Guiana" Code="GF" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Guernsey" Code="GG" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 11-->
+                <!-- Row 11 -->
+                <cf:CountryFlag x:Name="Ghana" Code="GH" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Gibraltar" Code="GI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Greenland" Code="GL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Gambia" Code="GM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Guinea" Code="GN" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Guadeloupe" Code="GP" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Equatorial_Guinea" Code="GQ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Greece" Code="GR" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+                
+                <!--#region Row 12-->
+                <!-- Row 12 -->
+                <cf:CountryFlag x:Name="SGSSI" Code="GS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Guatemala" Code="GT" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Guam" Code="GU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Guinea_Bissau" Code="GW" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Guyana" Code="GY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Hong_Kong" Code="HK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="HIMI" Code="HM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Honduras" Code="HN" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 13-->
+                <!-- Row 13 -->
+                <cf:CountryFlag x:Name="Croatia" Code="HR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Haiti" Code="HT" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Hungary" Code="HU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Indonesia" Code="ID" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Ireland" Code="IE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Israel" Code="IL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Isle_of_Man" Code="IM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="India" Code="IN" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 14-->
+                <!-- Row 14 -->
+                <cf:CountryFlag x:Name="BIOT" Code="IO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Iraq" Code="IQ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Iran" Code="IR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Iceland" Code="IS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Italy" Code="IT" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Bailiwick_of_Jersey" Code="JE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Jamaica" Code="JM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Jordan" Code="JO" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 15-->
+                <!-- Row 15 -->
+                <cf:CountryFlag x:Name="Japan" Code="JP" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Kenya" Code="KE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Kyrgyzstan" Code="KG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Cambodia" Code="KH" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Kiribati" Code="KI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Comoros" Code="KM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Saint_Kitts_and_Nevis" Code="KN" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="North_Korea" Code="KP" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 16-->
+                <!-- Row 16 -->
+                <cf:CountryFlag x:Name="South_Korea" Code="KR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Kuwait" Code="KW" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Cayman_Islands" Code="KY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Kazakhstan" Code="KZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Laos" Code="LA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Lebanon" Code="LB" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Saint_Lucia" Code="LC" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Liechtenstein" Code="LI" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 17-->
+                <!-- Row 17 -->
+                <cf:CountryFlag x:Name="Sri_Lanka" Code="LK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Liberia" Code="LR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Lesotho" Code="LS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Lithuania" Code="LT" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Luxembourg" Code="LU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Latvia" Code="LV" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Libya" Code="LY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Morocco" Code="MA" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 18-->
+                <!-- Row 18 -->
+                <cf:CountryFlag x:Name="Monaco" Code="MC" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Moldova" Code="MD" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Montenegro" Code="ME" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Saint_Martin" Code="MF" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Madagascar" Code="MG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Marshall_Islands" Code="MH" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="North_Macedonia" Code="MK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Mali" Code="ML" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 19-->
+                <!-- Row 19 -->
+                <cf:CountryFlag x:Name="Myanmar" Code="MM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Mongolia" Code="MN" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Macao" Code="MO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Northern_Mariana_Islands" Code="MP" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Martinique" Code="MQ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Mauritania" Code="MR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Montserrat" Code="MS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Malta" Code="MT" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 20-->
+                <!-- Row 20 -->
+                <cf:CountryFlag x:Name="Mauritius" Code="MU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Maldives" Code="MV" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Malawi" Code="MW" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Mexico" Code="MX" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Malaysia" Code="MY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Mozambique" Code="MZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Namibia" Code="NA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="New_Caledonia" Code="NC" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 21-->
+                <!-- Row 21 -->
+                <cf:CountryFlag x:Name="Niger" Code="NE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Norfolk_Island" Code="NF" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Nigeria" Code="NG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Nicaragua" Code="NI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Netherlands" Code="NL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Norway" Code="NO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Nepal" Code="NP" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Nauru" Code="NR" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 22-->
+                <!-- Row 22 -->
+                <cf:CountryFlag x:Name="Niue" Code="NU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="New_Zealand" Code="NZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Oman" Code="OM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Panama" Code="PA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Peru" Code="PE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="French_Polynesia" Code="PF" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Papua_New_Guinea" Code="PG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Philippines" Code="PH" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 23-->
+                <!-- Row 23 -->
+                <cf:CountryFlag x:Name="Pakistan" Code="PK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Poland" Code="PL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Saint_Pierre_and_Miquelon" Code="PM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Pitcairn_Islands" Code="PN" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Puerto_Rico" Code="PR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Palestine" Code="PS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Portugal" Code="PT" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Palau" Code="PW" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 24-->
+                <!-- Row 24 -->
+                <cf:CountryFlag x:Name="Paraguay" Code="PY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Qatar" Code="QA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Réunion" Code="RE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Romania" Code="RO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Serbia" Code="RS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Russia" Code="RU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Rwanda" Code="RW" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Saudi_Arabia" Code="SA" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 25-->
+                <!-- Row 25 -->
+                <cf:CountryFlag x:Name="Solomon_Islands" Code="SB" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Seychelles" Code="SC" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Sudan" Code="SD" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Sweden" Code="SE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Singapore" Code="SG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="AHATC" Code="SH" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Slovenia" Code="SI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="SJM" Code="SJ" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 26-->
+                <!-- Row 26 -->
+                <cf:CountryFlag x:Name="Slovakia" Code="SK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Sierra_Leone" Code="SL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="San_Marino" Code="SM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Senegal" Code="SN" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Somalia" Code="SO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Suriname" Code="SR" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="South_Sudan" Code="SS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Saint_Thomas_and_Prince" Code="ST" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 27-->
+                <!-- Row 27 -->
+                <cf:CountryFlag x:Name="El_Salvador" Code="SV" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Sint_Maarten" Code="SX" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Syria" Code="SY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Eswatini" Code="SZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Turks_and_Caicos_Islands" Code="TC" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Chad" Code="TD" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="TAAF" Code="TF" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Togo" Code="TG" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 28-->
+                <!-- Row 28 -->
+                <cf:CountryFlag x:Name="Thailand" Code="TH" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Tajikistan" Code="TJ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Tokelau" Code="TK" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="East_Timor" Code="TL" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Turkmenistan" Code="TM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Tunisia" Code="TN" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Tonga" Code="TO" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Turkey" Code="TR" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 29-->
+                <!-- Row 29 -->
+                <cf:CountryFlag x:Name="Trinidad_and_Tobago" Code="TT" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Tuvalu" Code="TV" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Taiwan" Code="TW" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Tanzania" Code="TZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Ukraine" Code="UA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Uganda" Code="UG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="UM" Code="UM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="USA" Code="US" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 30-->
+                <!-- Row 30 -->
+                <cf:CountryFlag x:Name="Uruguay" Code="UY" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Uzbekistan" Code="UZ" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Vatican_City" Code="VA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="VC" Code="VC" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Venezuela" Code="VE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="British_Virgin_Islands" Code="VG" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="United_States_Virgin_Islands" Code="VI" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Vietnam" Code="VN" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+                <!--#region Row 31-->
+                <!-- Row 31 -->
+                <cf:CountryFlag x:Name="Vanuatu" Code="VU" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="WF" Code="WF" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Samoa" Code="WS" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Yemen" Code="YE" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Mayotte" Code="YT" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="South_Africa" Code="ZA" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Zambia" Code="ZM" Margin="5" MouseLeftButtonDown="Click"/>
+                <cf:CountryFlag x:Name="Zimbabwe" Code="ZW" Margin="5" MouseLeftButtonDown="Click"/>
+                <!--#endregion-->
+
+            </WrapPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>

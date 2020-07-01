@@ -1,0 +1,66 @@
+﻿<Window x:Name="Rekenmachine" x:Class="_1_Rekenmachine_2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1_Rekenmachine_2._0"
+        mc:Ignorable="d"
+        Title="Rekenmachine" Height="340" Width="317" ResizeMode="NoResize" KeyDown="Window_KeyDown" Cursor="Arrow" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left">
+
+            <TextBox x:Name="Display" TextAlignment="Right" Margin="5" Padding="2" FontSize="30" Text="0" Height="50" IsReadOnly="True"  />
+            
+            <!--Buttons-->
+            <StackPanel Orientation="Horizontal">
+                
+                <!--#region Numbers and comma-->
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="SevenButton" Content="7" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                        <Button x:Name="EightButton" Content="8" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                        <Button x:Name="NineButton" Content="9" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="FourButton" Content="4" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                        <Button x:Name="FiveButton" Content="5" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                        <Button x:Name="SixButton" Content="6" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="OneButton" Content="1" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                        <Button x:Name="TwoButton" Content="2" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                        <Button x:Name="ThreeButton" Content="3" FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="ZeroButton" Content="0" FontSize="30" Margin="5" Width="110" Height="50" Click="Button_Click" Focusable="False" />
+                        <Button x:Name="CommaButton" Content="," FontSize="30" Margin="5" Width="50" Height="50" Click="Button_Click" Focusable="False" />
+                    </StackPanel>
+                </StackPanel>
+                <!--#endregion-->
+                
+                <!--#region Operators-->
+                <StackPanel Orientation="Vertical">
+                    <Button x:Name="PercentageButton" Content="%" FontSize="20" Margin="5" Width="50" Height="38" Focusable="False" Click="Percentage_Click" />
+                    <Button x:Name="DivideButton" Content="/" FontSize="20" Margin="5" Width="50" Height="38" Click="Operator_Click" Focusable="False" />
+                    <Button x:Name="TimesButton" Content="X" FontSize="20" Margin="5" Width="50" Height="38" Click="Operator_Click" Focusable="False" />
+                    <Button x:Name="MinusButton" Content="-" FontSize="20" Margin="5" Width="50" Height="38" Click="Operator_Click" Focusable="False" />
+                    <Button x:Name="PlusButton" Content="+" FontSize="20" Margin="5" Width="50" Height="38" Click="Operator_Click" Focusable="False" />
+                </StackPanel>
+                <!--#endregion-->
+                
+                <!--#region AllClear, Clear and Equal button-->
+                <StackPanel Orientation="Vertical">
+                    <Button x:Name="AllClearButton" Content="AC" FontSize="20" Margin="5" Width="50" Height="38" Click="AllClearButton_Click" Focusable="False" />
+                    <Button x:Name="ClearButton" Content="C" FontSize="20" Margin="5" Width="50" Height="38" Click="ClearButton_Click" Focusable="False" />
+                    <Button x:Name="EuroButton" Content="€" FontSize="20" Margin="5" Width="50" Height="38" Focusable="False" Click="Euro_Click" />
+                    <Button x:Name="EqualButton" Content="=" FontSize="30" Margin="5" Width="50" Height="86" Click="EqualButton_Click" />
+                </StackPanel>
+                <!--#endregion-->
+                
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
