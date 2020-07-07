@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lettertype_Chaos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lettertype_Chaos"
+        mc:Ignorable="d"
+        Title="Lettertype Converter" Height="500" Width="500">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Met dit programma kun je jouw tekst veranderen in een 'losgeldbrief'" 
+                       Height="20" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+            <TextBox x:Name="textbox" Text="Hallo ik ben Luna" Height="300" Width="450" Margin="0,10,0,0" />
+            <Button x:Name="Button" Content="Verander lettertype" Height="30" Width="120" Margin="0,10,0,0" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
